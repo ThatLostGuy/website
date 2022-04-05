@@ -1,0 +1,29 @@
+/* Background color of the webpage */
+body {
+	background-color: #c9c9c9;
+	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
+}
+
+/* Center item in the middle of the screen */
+.center {
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 100vh;
+}
+
+/* Divider containing the input box, button and image. */
+.character-input {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 320px;
+}
+
+/* Size of the character image above the input box. */
+/*.character-img {
+	margin-bottom: 3%;
+	height: 200px;
+	width: 350px;
+}*/
