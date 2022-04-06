@@ -4,7 +4,7 @@ body {
 	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
 }
 p{
-	color: #ffffff;
+	color: #ff0303;
 }
 
 /* Center item in the middle of the screen */
@@ -16,7 +16,11 @@ p{
   	min-height: 100vh;
 }*/
 .center {
-	margin-top: 10%;
+	margin-top: 20%;
+}
+
+.roof {
+	margin-top: 2%;
 }
 
 /* Divider containing the input box, button and image. */
@@ -25,6 +29,22 @@ p{
 	margin-top: 1%;
 	margin-bottom: 1%;
 	width: 320px;
+}
+
+.sizeperk{
+	height: 100px;
+	width: 100px;
+}
+.righty{
+	margin-right: 25%;
+}
+.lefty{
+	margin-left: 25%;
+}
+
+.perk1-input {
+	text-align: col-md-3;
+	width: 250px;
 }
 
 /* Size of the character image above the input box. */
