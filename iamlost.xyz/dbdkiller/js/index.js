@@ -176,7 +176,7 @@ $(function() {
 			['Sloppy Butcher', 'https://ss.iamlost.xyz/l/qAJu9.png/raw'],
 			['Spies from the Shadows', 'https://ss.iamlost.xyz/l/dIXA4.png/raw'], 
 			['Unrelenting', 'https://ss.iamlost.xyz/l/tuLU7.png/raw'], 
-			['Whispers', 'https://ss.iamlost.xyz/l/QOha6.png/raw'],
+			['Whispers', 'https://ss.iamlost.xyz/l/QOha6.png/raw']
 
 		];
 		const rndNum = Math.floor(Math.random() * options.length);
