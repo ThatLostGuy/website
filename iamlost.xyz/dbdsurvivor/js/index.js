@@ -39,10 +39,35 @@ $(function() {
 	
 	function btnClickRndCharacter() {
 		const character = getRndCharacter();
+		const perk1 = getRndPerk();
+		const perk2 = getRndPerk();
+		const perk3 = getRndPerk();
+		const perk4 = getRndPerk();
 
 		document.getElementById('character-name').value = character[0];
 		document.getElementById('character-image').src = character[1];
+		document.getElementById('perk1-name').innerHTML = perk1[0];
+		document.getElementById('perk1-image').src = perk1[1];
+		document.getElementById('perk2-name').innerHTML = perk2[0];
+		document.getElementById('perk2-image').src = perk2[1];
+		document.getElementById('perk3-name').innerHTML = perk3[0];
+		document.getElementById('perk3-image').src = perk3[1];
+		document.getElementById('perk4-name').innerHTML = perk4[0];
+		document.getElementById('perk4-image').src = perk4[1];
 	}
 
 	$.btnClickRndCharacter = btnClickRndCharacter;
+
+	function getRndPerk() {
+		const options = [
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+
+		];
+		const rndNum = Math.floor(Math.random() * options.length);
+	
+		return options[rndNum];
+	}
 });
