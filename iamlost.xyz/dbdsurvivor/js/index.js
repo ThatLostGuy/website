@@ -46,13 +46,13 @@ $(function() {
 
 		document.getElementById('character-name').value = character[0];
 		document.getElementById('character-image').src = character[1];
-		document.getElementById('perk1-name').innerHTML = perk1[0];
+		document.getElementById('perk1-name').value = perk1[0];
 		document.getElementById('perk1-image').src = perk1[1];
-		document.getElementById('perk2-name').innerHTML = perk2[0];
+		document.getElementById('perk2-name').value = perk2[0];
 		document.getElementById('perk2-image').src = perk2[1];
-		document.getElementById('perk3-name').innerHTML = perk3[0];
+		document.getElementById('perk3-name').value = perk3[0];
 		document.getElementById('perk3-image').src = perk3[1];
-		document.getElementById('perk4-name').innerHTML = perk4[0];
+		document.getElementById('perk4-name').value = perk4[0];
 		document.getElementById('perk4-image').src = perk4[1];
 	}
 

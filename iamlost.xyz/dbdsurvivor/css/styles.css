@@ -1,6 +1,6 @@
 /* Background color of the webpage */
 body {
-	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
+	background-image: url('https://ss.iamlost.xyz/l/DiCU9.jpg/raw');
 }
 
 p {
@@ -22,7 +22,12 @@ p {
 	margin-bottom: 1%;
 	width: 320px;
 }
-
+.perk-input {
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 280px;
+}
 .box-color{
 	background-color: #333333!important ;
 	color: #ffffff;
