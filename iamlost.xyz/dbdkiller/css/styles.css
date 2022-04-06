@@ -1,6 +1,5 @@
 /* Background color of the webpage */
 body {
-	background-color: #ffffff;
 	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
 }
 
@@ -25,7 +24,8 @@ p{
 }
 
 .box-color{
-	background-color: #333333!important;
+	background-color: #333333!important ;
+	color: #ffffff;
 }
 .survivor-redirect {
 	position: absolute;
