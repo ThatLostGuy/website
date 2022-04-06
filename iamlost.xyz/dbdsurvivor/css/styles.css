@@ -1,11 +1,10 @@
 /* Background color of the webpage */
 body {
-	background-color: #c9c9c9;
-	background-image: url('https://ss.iamlost.xyz/l/DiCU9.jpg/raw');
+	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
 }
 
-p{
-	color: #ffffff;
+p {
+	color: #ff0303;
 }
 
 .center {
@@ -13,20 +12,21 @@ p{
 }
 
 .roof {
-	margin-top: 2%;
+	margin-top: 10%;
 }
 
-.box-color{
-	background-color: #333333!important ;
-	color: #ffffff;
-	border-color: #111111;
-}
 /* Divider containing the input box, button and image. */
 .character-input {
 	text-align: center;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	width: 320px;
+}
+
+.box-color{
+	background-color: #333333!important ;
+	color: #ffffff;
+	border-color: #111111;
 }
 
 .survivor-redirect {
@@ -46,50 +46,28 @@ p{
 	width: 110px;
 }
 
-.righty{
-	margin-right: 25%;
-}
-
-.lefty{
-	margin-left: 25%;
-}
-
-.imgB1{
-	z-index: -1;
-	position: absolute;
-	top: 562px;
-	left: -33px;
-}
-
-.imgB2{
-	z-index: -1;
-	position: absolute;
-	top: 562px;
-	left: 739px;
-}
-
-.imgB3{
-	z-index: -1;
-	position: absolute;
-	top: 562px;
-	right: 741px;
-}
-
-.imgB4{
-	z-index: -1;
-	position: absolute;
-	top: 562px;
-	right: -31px;
-}
-
-/* Center item in the middle of the screen */
-/*.center {
+.center-flex {
     display: flex;
   	justify-content: center;
   	align-items: center;
   	text-align: center;
-  	min-height: 100vh;
-}*/
+}
+
+.image-flex-parent {
+  	position: relative;
+}
+
+.image-flex {
+ 	position: absolute;
+    text-align: center;
+    max-height: 100px; 
+    max-width: 100px;
+}
+
+.perk-name {
+	margin-top: 25%;
+}
+
 /*.perk1-input {
 	text-align: col-md-3;
 	width: 250px;
