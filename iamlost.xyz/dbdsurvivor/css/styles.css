@@ -16,6 +16,11 @@ p{
 	margin-top: 2%;
 }
 
+.box-color{
+	background-color: #333333!important ;
+	color: #ffffff;
+	border-color: #111111;
+}
 /* Divider containing the input box, button and image. */
 .character-input {
 	text-align: center;
