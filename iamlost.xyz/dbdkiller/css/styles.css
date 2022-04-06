@@ -3,18 +3,11 @@ body {
 	background-color: #c9c9c9;
 	background-image: url('https://ss.iamlost.xyz/l/Kuyi5.png/raw');
 }
+
 p{
 	color: #ff0303;
 }
 
-/* Center item in the middle of the screen */
-/*.center {
-    display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	text-align: center;
-  	min-height: 100vh;
-}*/
 .center {
 	margin-top: 20%;
 }
@@ -30,6 +23,7 @@ p{
 	margin-bottom: 1%;
 	width: 320px;
 }
+
 .survivor-redirect {
 	position: absolute;
 	top: 16px;
@@ -41,13 +35,56 @@ p{
 	height: 100px;
 	width: 100px;
 }
+
+.sizeblank{
+	height: 110px;
+	width: 110px;
+}
+
 .righty{
 	margin-right: 25%;
 }
+
 .lefty{
 	margin-left: 25%;
 }
 
+.imgB1{
+	z-index: -1;
+	position: absolute;
+	top: 562px;
+	left: -33px;
+}
+
+.imgB2{
+	z-index: -1;
+	position: absolute;
+	top: 562px;
+	left: 739px;
+}
+
+.imgB3{
+	z-index: -1;
+	position: absolute;
+	top: 562px;
+	right: 741px;
+}
+
+.imgB4{
+	z-index: -1;
+	position: absolute;
+	top: 562px;
+	right: -31px;
+}
+
+/* Center item in the middle of the screen */
+/*.center {
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 100vh;
+}*/
 /*.perk1-input {
 	text-align: col-md-3;
 	width: 250px;
