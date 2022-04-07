@@ -33,27 +33,82 @@ $(function() {
 	
 		return options[rndNum];
 	}
+
+	$('#flexCheckDefault').change(function(e) {
+		if ($(this).is(':checked')) {
+			  $("#perk1-name, #perk1-image").show();
+			  $("#perk2-name, #perk2-image").show();
+			  $("#perk3-name, #perk3-image").show();
+			  $("#perk4-name, #perk4-image").show();
+		} else {
+			  $("#perk1-name, #perk1-image").hide();
+			  $("#perk2-name, #perk2-image").hide();
+			  $("#perk3-name, #perk3-image").hide();
+			  $("#perk4-name, #perk4-image").hide();
+			;
+		}
+	});
+
+	/*if (localStorage.getItem('character-name') !== null) {
+		$('#character-name').val(localStorage.getItem('character-name'));
+		$('#perk1-name').val(localStorage.getItem('perk1-name'));
+		$('#perk2-name').val(localStorage.getItem('perk2-name'));
+		$('#perk3-name').val(localStorage.getItem('perk3-name'));
+		$('#perk4-name').val(localStorage.getItem('perk4-name'));
+
+		$('#character-image').prop('src', localStorage.getItem('character-image'));
+		$('#perk1-image').prop('src', localStorage.getItem('perk1-image'));
+		$('#perk2-image').prop('src', localStorage.getItem('perk2-image'));
+		$('#perk3-image').prop('src', localStorage.getItem('perk3-image'));
+		$('#perk4-image').prop('src', localStorage.getItem('perk4-image'));
+
+		if ($('.col-md-3').hasClass('hidden')) {
+			$('.col-md-3').fadeIn(0, function() {
+				$(this).removeClass('hidden');
+			});
+		}
+	}
+	*/
 	
-	function btnClickRndCharacter() {
+
+	$('#select-killer-btn').click(function(event) {
 		const character = getRndCharacter();
 		const perk1 = getRndPerk();
 		const perk2 = getRndPerk();
 		const perk3 = getRndPerk();
 		const perk4 = getRndPerk();
 
-		document.getElementById('character-name').value = character[0];
-		document.getElementById('character-image').src = character[1];
-		document.getElementById('perk1-name').value = perk1[0];
-		document.getElementById('perk1-image').src = perk1[1];
-		document.getElementById('perk2-name').value = perk2[0];
-		document.getElementById('perk2-image').src = perk2[1];
-		document.getElementById('perk3-name').value = perk3[0];
-		document.getElementById('perk3-image').src = perk3[1];
-		document.getElementById('perk4-name').value = perk4[0];
-		document.getElementById('perk4-image').src = perk4[1];
-	}
+		localStorage.setItem('character-name', character[0]);
+		localStorage.setItem('perk1-name', perk1[0]);
+		localStorage.setItem('perk2-name', perk2[0]);
+		localStorage.setItem('perk3-name', perk3[0]);
+		localStorage.setItem('perk4-name', perk4[0]);
 
-	$.btnClickRndCharacter = btnClickRndCharacter;
+		localStorage.setItem('character-image', character[1]);
+		localStorage.setItem('perk1-image', perk1[1]);
+		localStorage.setItem('perk2-image', perk2[1]);
+		localStorage.setItem('perk3-image', perk3[1]);
+		localStorage.setItem('perk4-image', perk4[1]);
+
+		$('#character-name').val(character[0]);
+		$('#character-image').prop('src', character[1]);
+		$('#perk1-name').val(perk1[0]);
+		$('#perk1-image').prop('src', perk1[1]);
+		$('#perk2-name').val(perk2[0]);
+		$('#perk2-image').prop('src', perk2[1]);
+		$('#perk3-name').val(perk3[0]);
+		$('#perk3-image').prop('src', perk3[1]);
+		$('#perk4-name').val(perk4[0]);
+		$('#perk4-image').prop('src', perk4[1]);
+
+
+		// if 
+		if ($('.col-md-3').hasClass('hidden')) {
+			$('.col-md-3').fadeIn(0, function() {
+				$(this).removeClass('hidden');
+			});
+		}
+	});
 
 	function getRndPerk() {
 		const options = [

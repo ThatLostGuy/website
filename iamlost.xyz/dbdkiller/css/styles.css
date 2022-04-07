@@ -15,6 +15,10 @@ p {
 	margin-top: 10%;
 }
 
+.hidden {
+	display: none;
+}
+
 /* Divider containing the input box, button and image. */
 .character-input {
 	text-align: center;
