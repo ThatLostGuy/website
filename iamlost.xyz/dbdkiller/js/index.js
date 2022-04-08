@@ -36,25 +36,25 @@ $(function() {
 
 	$('#flexCheckDefault').change(function(e) {
 		if ($(this).is(':checked')) {
-			  $("#perk1-name, #perk1-image").show();
-			  $("#perk2-name, #perk2-image").show();
-			  $("#perk3-name, #perk3-image").show();
-			  $("#perk4-name, #perk4-image").show();
+			  $("#perk1-name, #perk1-image, #perk2-name, #perk2-image, #perk3-name, #perk3-image, #perk4-name, #perk4-image, .blank-perk").show();
+			  localStorage.setItem('flexCheckDefault', true);
 		} else {
-			  $("#perk1-name, #perk1-image").hide();
-			  $("#perk2-name, #perk2-image").hide();
-			  $("#perk3-name, #perk3-image").hide();
-			  $("#perk4-name, #perk4-image").hide();
-			;
+			  $("#perk1-name, #perk1-image, #perk2-name, #perk2-image, #perk3-name, #perk3-image, #perk4-name, #perk4-image, .blank-perk").hide();
+			  localStorage.setItem('flexCheckDefault', false);
+		} if ($('.col-md-3').hasClass('hidden')) {
+			$('.col-md-3').fadeIn(0, function() {
+				$(this).removeClass('hidden');
+			});
 		}
 	});
 
-	/*if (localStorage.getItem('character-name') !== null) {
+	if (localStorage.getItem('character-name') !== null) {
 		$('#character-name').val(localStorage.getItem('character-name'));
 		$('#perk1-name').val(localStorage.getItem('perk1-name'));
 		$('#perk2-name').val(localStorage.getItem('perk2-name'));
 		$('#perk3-name').val(localStorage.getItem('perk3-name'));
 		$('#perk4-name').val(localStorage.getItem('perk4-name'));
+		$('#flexCheckDefault').prop('checked', (localStorage.getItem('flexCheckDefault')=="true"));
 
 		$('#character-image').prop('src', localStorage.getItem('character-image'));
 		$('#perk1-image').prop('src', localStorage.getItem('perk1-image'));
@@ -62,15 +62,13 @@ $(function() {
 		$('#perk3-image').prop('src', localStorage.getItem('perk3-image'));
 		$('#perk4-image').prop('src', localStorage.getItem('perk4-image'));
 
-		if ($('.col-md-3').hasClass('hidden')) {
+		if ($('.col-md-3').hasClass('hidden') && (localStorage.getItem("flexCheckDefault")=="true")) {
 			$('.col-md-3').fadeIn(0, function() {
 				$(this).removeClass('hidden');
 			});
 		}
 	}
-	*/
 	
-
 	$('#select-killer-btn').click(function(event) {
 		const character = getRndCharacter();
 		const perk1 = getRndPerk();
@@ -100,7 +98,6 @@ $(function() {
 		$('#perk3-image').prop('src', perk3[1]);
 		$('#perk4-name').val(perk4[0]);
 		$('#perk4-image').prop('src', perk4[1]);
-
 
 		// if 
 		if ($('.col-md-3').hasClass('hidden')) {
