@@ -63,8 +63,131 @@ $(function() {
 			/*Nurse*/
 			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
 			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'],
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
 			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
-
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
+			/*Nurse*/
+			['A Nurse\'s Calling', 'https://ss.iamlost.xyz/l/XOYi1.png/raw'],
+			['Stridor', 'https://ss.iamlost.xyz/l/buMu2.png/raw'], 
+			['Tanatophobia', 'https://ss.iamlost.xyz/l/RENO7.png/raw'], 
 		];
 		const rndNum = Math.floor(Math.random() * options.length);
 	
